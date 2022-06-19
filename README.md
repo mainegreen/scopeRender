@@ -56,7 +56,7 @@ is run through private method encodeAll
 the content matched by the patterns provided unchanged, and encode the rest. If false, remove
 anything matched by the patterns and encode the rest. As default the constants on the 
 BasicEscapeHtmlPatterns class are what is used, so for example, if $encodeAll is false, and
-$preserveFormatters is true then '<img src="foo.png"> an image' would have the img tag remain unescaped as it passes
+$preserveFormatters is true then '\<img src="foo.png"> an image' would have the img tag remain unescaped as it passes
 the pattern in BASIC_PATTERN_IMAGES, but if $preserveFormatters is false, then it would be
 removed from the string entirely, leaving only ' an image' behind.
 
