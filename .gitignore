@@ -1,3 +1,4 @@
 composer.bat
 .idea
 vendor
+/phpunit_tester.bat
